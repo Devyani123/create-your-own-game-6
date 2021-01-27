@@ -158,6 +158,7 @@ if(gameState===1){
 if(gameState===2){
 
   m15=createSprite(0,200,5,100)
+  m15.shapeColour="white"
   g1.visible=true
   g1.addImage(gaurdimager)
   g1.scale=0.2
